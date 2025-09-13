@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\AUTOMATION TOOLS PRACTICE\\PLAYWRIGHT\\PlaywrightPractice01\\playwright.config.js",
-    "rootDir": "D:/AUTOMATION TOOLS PRACTICE/PLAYWRIGHT/PlaywrightPractice01/tests",
+    "configFile": "./playwright.config.js",
+    "rootDir": "./tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
