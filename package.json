@@ -1,0 +1,46 @@
+{
+  "name": "playwrightpractice01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Playwright Test Automation Framework in JavaScript",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:e2e": "npx playwright test tests/e2e/",
+    "test:api": "npx playwright test tests/api/",
+    "test:mobile": "npx playwright test tests/mobile/",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:dev": "TEST_ENV=dev npx playwright test",
+    "test:qa": "TEST_ENV=qa npx playwright test",
+    "test:staging": "TEST_ENV=staging npx playwright test",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install --with-deps",
+    "codegen": "npx playwright codegen",
+    "trace": "npx playwright show-trace"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e",
+    "javascript",
+    "qa"
+  ],
+  "author": "QA Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "dotenv": "^17.2.2",
+    "pg": "^8.11.0"
+  },
+  "dependencies": {
+    "allure-playwright": "^2.10.0"
+  }
+}
