@@ -33,6 +33,7 @@ coverage/
 
 # Misc
 reports/
+*.json
 dist/
 build/
 tmp/
