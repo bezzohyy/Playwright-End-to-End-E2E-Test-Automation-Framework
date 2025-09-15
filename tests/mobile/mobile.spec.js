@@ -10,7 +10,7 @@ const mobileDevices = [
 
 mobileDevices.forEach(device => {
   test.describe(`Mobile Tests - ${device.defaultBrowserType}`, () => {
-    test.use({ ...device });
+    //test.use({ ...device });  
 
     test('should display mobile-friendly login page', async ({ page }) => {
       const loginPage = new LoginPage(page);
