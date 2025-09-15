@@ -60,10 +60,10 @@ module.exports = defineConfig({
     trace: 'retain-on-failure',
     
     /* Screenshot settings */
-    screenshot: process.env.SCREENSHOT_MODE || 'only-on-failure',
+    screenshot:  'only-on-failure', /**process.env.SCREENSHOT_MODE || */
     
     /* Video settings */
-    video: process.env.VIDEO_MODE || 'retain-on-failure',
+    video: 'retain-on-failure', /**process.env.VIDEO_MODE ||  */
     
     /* Slow down operations by the specified amount of milliseconds */
     launchOptions: {
