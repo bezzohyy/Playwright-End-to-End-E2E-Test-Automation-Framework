@@ -1,5 +1,4 @@
-````markdown
-# 🧪 Playwright End-to-End (E2E) Test Automation Framework
+# Playwright End-to-End (E2E) Test Automation Framework
 
 ## 🚀 Overview
 
