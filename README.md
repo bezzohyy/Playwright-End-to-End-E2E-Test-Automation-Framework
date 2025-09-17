@@ -25,8 +25,10 @@ Whether you're validating a checkout flow, simulating mobile interactions, or in
 
 ```bash
 .github/
-├─ workflows/
-│  └─ ci.yml                        # GitHub Actions workflows
+├─ workflows/                       # GitHub Actions workflows
+│  ├─ performance.yml
+│  ├─ playwright.yml
+│  └─ security.yml                      
 
 config/                             # Environment-specific configs
 ├─ dev.env.js
@@ -125,7 +127,7 @@ Instead of treating automation as a substitute for testing, this framework posit
   It accelerates repetitive flows (logins, checkouts, API contracts) so testers can invest time in probing for edge cases, usability issues, and emergent behaviors.  
 
 - 🧩 **System awareness, not just scripts**  
-  With API + UI + config-driven tests, it builds a model of the system’s moving parts—highlighting where failures cluster, where environments drift, and where risk lives.  
+  With API + UI + config-driven tests, it builds a model of the system’s moving parts, highlighting where failures cluster, where environments drift, and where risk lives.  
 
 - 🤝 **Supports collaboration across roles**  
   Developers can use it to guard against unintended breakage. Testers can use it to amplify their reach. Business stakeholders can see reports that reveal patterns, not just pass/fail counts.  
@@ -158,10 +160,13 @@ This framework is not about “impressing with green checks.” It’s about cre
 
 ```bash
 # Install dependencies
-npm install
+npm init playwright@latest
 
 # Run all tests
 npx playwright test
+
+# Run in UI mode
+npx playwright test --ui
 
 # Run a specific test
 npx playwright test src/tests/e2e/login.spec.ts
@@ -171,6 +176,12 @@ npx playwright show-report
 
 # Run with environment config
 cross-env ENV=qa npx playwright test
+
+# Allure-Reporter Installation
+npm install --save-dev @playwright/test allure-playwright
+
+# Run Allure to convert the test results into an HTML report
+allure serve allure-results
 ```
 
 ---
